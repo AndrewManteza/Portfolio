@@ -10,6 +10,9 @@ export default class extends AbstractView {
         return `
             <h1>Here is my Education</h1>
             <p>Manage your privacy and configuration.</p>
+
+
+         
         `;
     }
 }

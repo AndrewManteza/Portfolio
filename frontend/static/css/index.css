@@ -3,6 +3,9 @@ body {
     margin: 0 0 0 var(--nav-width);
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
+    background-image: url(backgroundImages.jpg);/*shit not working */
+        
+    
 }
 
 .nav {

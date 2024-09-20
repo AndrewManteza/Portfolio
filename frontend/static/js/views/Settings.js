@@ -8,8 +8,16 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <h1>Settings</h1>
-            <p>Manage your privacy and configuration.</p>
-        `;
+            <h1>Contact Me</h1>
+            <p>Email: AManteza123@outlook.com</p>
+
+            <h2> LINKS </h2>
+
+            <p><a href="https://github.com/AndrewManteza">Github</a></p>
+            <p><a href="https://www.linkedin.com/in/andrew-manteza-b004481b5/">Linkedin</a></p>
+            
+
+       
+            `;
     }
 }
