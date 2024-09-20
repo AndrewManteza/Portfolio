@@ -8,6 +8,9 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
+
+            <link rel="stylesheet" href="/static/css/projectsCSS.css">
+
             <h1>Here are my Projects</h1>
             <p>Manage your privacy and configuration.</p>
             <!-- The grid: four columns -->
