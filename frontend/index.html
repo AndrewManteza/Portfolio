@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Andrew Manteza</title>
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="/static/css/index.css">
 </head>
 <body>
-
-    <nav class = 'nav'>
-        <a href="/" class="nav_ _link" data-link>Dashboard</a>
-        <a href="/posts" class="nav_ _link" data-link>Posts</a>
-        <a href="/settings" class="nav_ _link" data-link>Settings</a>
+    <nav class="nav">
+        <a href="/" class="nav__link" data-link>Dashboard</a>
+        <a href="/skills" class="nav__link" data-link>Skills</a>
+        <a href="/education" class="nav__link" data-link>Education</a>
+        <a href="/workexp" class="nav__link" data-link>Work Experience</a>
+        <a href="/projects" class="nav__link" data-link>Projects</a>
+        <a href="/settings" class="nav__link" data-link>Contact</a>
     </nav>
-
-    <script type="module" src ="/static/js/index.js" ></script>
-
-    
+    <div id="app"></div>
+    <script type="module" src="/static/js/index.js"></script>
 </body>
 </html>
