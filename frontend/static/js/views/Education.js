@@ -12,8 +12,7 @@ export default class extends AbstractView {
 
         <link rel="stylesheet" href="/static/css/educationETWorkExperienceCSS.css">
             <h1>Here is my Education</h1>
-            <p>Manage your privacy and configuration.</p>
-            . . .
+            
 
             <!--Section 5: Education and Skills-->
             

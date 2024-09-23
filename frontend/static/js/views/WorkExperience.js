@@ -10,12 +10,21 @@ export default class extends AbstractView {
         return `
             <link rel="stylesheet" href="/static/css/educationETWorkExperienceCSS.css">
             <h1>Here are my WorkExperience</h1>
-            <p>Manage your privacy and configuration.</p>
+            
             <!--Section 5: Education-->
             
             <div class="column-2a">
-            <h2>Education</h2>
+            <h2>Work Experience</h2>
               <table class="table-style">
+
+                <tr>
+                <td>Remote</td>
+                <td>Social Media Manger and Lead Generation</td>
+                
+                <td>Tasks include editing photos and videos for contentcreation, conducting manual outreach to potential clientsvia LinkedIn filters, and performing copywriting, graphicdesign, and video editing. Developed a highly successfulmarketing approach resulting in 5-15 sales calls per weekfor clients.</td>
+                <td>01/2019 - 08/2022 | 01/2024 | Present</td>
+
+                </tr>
                 <tr>
                   <td>IDEX - Abu Dhabi, UAE</td>
                   <td>Accreditation Officer</td>
@@ -24,9 +33,11 @@ export default class extends AbstractView {
                   <td>02/2021 - 03/2021</td>
                 </tr>
                 <tr>
-                  <td>University of the Immaculate Conception</td>
-                  <td>Bachelor of Science Computer Science</td>
-                  <td>2018-2022</td>
+                  <td>Hijo Resources Corporation - Tagum City</td>
+                  <td>Techno functional ERP Consultant</td>
+                  <td>SAP Functional Consultant which specializes in the implementation for ERP solutions. This included the gathering of requirements via the facilitation of meetings, project management, functional and technical support </td>
+                  
+                  <td>09/2022 - 10/2023</td>
                 </tr>
             
               </table>
