@@ -11,13 +11,20 @@ export default class extends AbstractView {
             <h1>Graphic Design Projects</h1>
             <h2>Responsive Image Gallery</h2>
 
+          
+
+
 <h4>Resize the browser window to see the effect.</h4>
+
 <link rel="stylesheet" href="/static/css/postsGraphicDesign.css">
+
 <div class="responsive">
   <div class="gallery">
+
     <a target="_blank" href="img_5terre.jpg">
-      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+      <img src="https://i.ibb.co/rMhnDj3/1.jpg alt="Cinque Terre" width="600" height="400">
     </a>
+    
     <div class="desc">Add a description of the image here</div>
   </div>
 </div>
@@ -26,7 +33,7 @@ export default class extends AbstractView {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+      <img src="https://i.ibb.co/JF5NKsk/2.jpg"  alt="Forest" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -35,7 +42,7 @@ export default class extends AbstractView {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+      <img src="https://i.ibb.co/g6Hcvf5/4.jpg alt="Northern Lights" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -44,11 +51,13 @@ export default class extends AbstractView {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+      <img src="https://i.ibb.co/PWdpDrK/3.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
 </div>
+
+
 
 <div class="clearfix"></div>
 
