@@ -9,42 +9,55 @@ export default class extends AbstractView {
     async getHtml() {
         return `
 
-            <link rel="stylesheet" href="/static/css/projectsCSS.css">
+        <link rel="stylesheet" href="/static/css/postsGraphicDesign.css">
 
-            <h1>Here are my Projects</h1>
-            
-            <!-- The grid: four columns -->
-            <div class="row">
-            <div class="column">
-                <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
-            </div>
-            
-            <div class="column">
-                <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
-            </div>
-      
-            <div class="column">
-                 <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
-            </div>
-      
-            <div class="column">
-                <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
-            </div>
-            </div>
-    
-            <!-- The expanding image container -->
-            <div class="container">
-      
-            <!-- Close the image -->
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    
-            <!-- Expanded image -->
-            <img id="expandedImg" style="width:100%">
-    
-            <!-- Image text -->
-            <div id="imgtext"></div>
-            </div>
-    
+        <div class="responsive">
+          <div class="gallery">
+        
+            <a target="_blank" href="https://colab.research.google.com/drive/1ZIUfBupWXSrNNu9T0migbKPGkVkcrcIM#scrollTo=Gq67yV6DDI1y">
+              <img src="https://i.ibb.co/rmhptBZ/istockphoto-1390274690-612x612.jpg alt="Apex_Promo" width="600" height="400">
+            </a>
+
+          
+            <div class="desc">I made a short quiz in python</div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="https://i.ibb.co/JF5NKsk/2.jpg"  alt="Apex_FunFact" width="600" height="400">
+            </a>
+            <div class="desc">Here is a fun fact graphic I made for Apex Rentals</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="https://i.ibb.co/g6Hcvf5/4.jpg alt="Apex_Review" width="600" height="400">
+            </a>
+            <div class="desc">Here is a client review for Apex Rentals with a name change for anonymity</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="https://i.ibb.co/PWdpDrK/3.jpg" alt="Apex_Poll" width="600" height="400">
+            </a>
+            <div class="desc">This is an example of a poll I made for Apex Rentals</div>
+          </div>
+        </div>
+        
+        
+        
+        <div class="clearfix"></div>
+        
+        <div style="padding:6px;">
+          
+        </div>
         `;
     }
 }
