@@ -15,7 +15,7 @@ export default class extends AbstractView {
           <div class="gallery">
         
             <a target="_blank" href="https://colab.research.google.com/drive/1ZIUfBupWXSrNNu9T0migbKPGkVkcrcIM#scrollTo=Gq67yV6DDI1y">
-              <img src="https://i.ibb.co/rmhptBZ/istockphoto-1390274690-612x612.jpg alt="Apex_Promo" width="600" height="400">
+              <img src="https://i.ibb.co/rmhptBZ/istockphoto-1390274690-612x612.jpg alt="Calculator App" width="600" height="400">
             </a>
 
           
@@ -26,30 +26,23 @@ export default class extends AbstractView {
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_forest.jpg">
-              <img src="https://i.ibb.co/JF5NKsk/2.jpg"  alt="Apex_FunFact" width="600" height="400">
+            <a target="_blank" href="https://github.com/AndrewManteza/nailedItFlask">
+              <img src="https://i.ibb.co/ctP9fGh/images-1.jpg"  alt="NailedIT" width="600" height="400">
             </a>
-            <div class="desc">Here is a fun fact graphic I made for Apex Rentals</div>
+            <div class="desc">This is a Flask Website portfolio involving a small time nail studio</div>
           </div>
         </div>
         
         <div class="responsive">
           <div class="gallery">
-            <a target="_blank" href="img_lights.jpg">
-              <img src="https://i.ibb.co/g6Hcvf5/4.jpg alt="Apex_Review" width="600" height="400">
+            <a target="_blank" href="https://github.com/AndrewManteza/pythonGUIExpense">
+              <img src="https://i.ibb.co/JCQfR1Q/9882183.jpg" alt="pythonExpense" border="0">          
             </a>
-            <div class="desc">Here is a client review for Apex Rentals with a name change for anonymity</div>
+            <div class="desc">This is a financial tracking app that I am trying to use tnkinter on for a desktop GUI</div>
           </div>
         </div>
         
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="https://i.ibb.co/PWdpDrK/3.jpg" alt="Apex_Poll" width="600" height="400">
-            </a>
-            <div class="desc">This is an example of a poll I made for Apex Rentals</div>
-          </div>
-        </div>
+  
         
         
         
